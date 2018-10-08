@@ -1,0 +1,439 @@
+/*Dark Skin by Alex Shram www.creativewebsolution.pl*/
+
+.nightmode .fep-header-button-wrapper input[type="checkbox"] {
+	border-left: 0px dotted #313131!important;
+	background: #414141!important;
+}
+/*color header*/
+.nightmode #elementor-panel-header {
+	background-color: #484848!important;
+}
+/*after header wkladki*/
+.nightmode .elementor-panel #elementor-panel-elements-navigation .elementor-panel-navigation-tab {
+	background-image: -webkit-gradient(linear,left top,left bottom,from(#383838),to(#313131));
+	background-image: -webkit-linear-gradient(top,#383838,#313131);
+	background-image: -o-linear-gradient(top,#383838,#313131);
+	background-image: -webkit-gradient(linear,left top, left bottom,from(#383838),to(#313131));
+	background-image: linear-gradient(180deg,#383838,#313131);
+}
+/*aktywna*/
+.nightmode .elementor-panel .elementor-panel-navigation .elementor-panel-navigation-tab.active {
+	background-color: #676767!important;
+	/*border-bottom: 3px solid #c7c7c7!important;*/
+	border: 1px dashed #c7c7c7!important;
+	-webkit-box-shadow: 1px 1px 1px #424242!important;
+	box-shadow: 1px 1px 1px #424242!important;
+}
+/*styl wyszukiwarki*/
+.nightmode .elementor-panel #elementor-panel-elements-search-input {
+	background-color: #313131!important;
+	border-radius: 3px!important;
+	/*padding: 7px!important;*/
+}
+.nightmode .elementor-panel #elementor-panel-elements-search-wrapper i {
+	padding-right: 7px!important;
+}
+/*styl glownej nawigacji*/
+.nightmode .elementor-panel .elementor-panel-navigation {
+	background-color: #383838!important;
+	color: #aaaaaa!important;
+}
+.nightmode .elementor-panel .elementor-panel-navigation .elementor-panel-navigation-tab a {
+	color: #aaaaaa!important;
+}
+.nightmode .elementor-panel .elementor-panel-navigation .elementor-panel-navigation-tab.active {
+	background-image: none!important;
+}
+/*style naglowkow*/
+.nightmode .elementor-panel .elementor-panel-heading-title {
+	color: #f2f2f2!important;
+	font-weight: 300!important;
+	text-transform: uppercase!important;
+}
+/*styl wszystkich linkow*/
+.nightmode .elementor-panel a {
+	color: #fff!important;
+}
+/* styl polzunkow*/
+.nightmode .elementor-panel .elementor-slider .ui-slider-handle {
+	background-color: #313131!important;
+}
+/*styl perekluchateley*/
+.nightmode .elementor-panel .elementor-control-type-switcher .elementor-switch {
+	background-color: #535353!important;
+}
+.nightmode .elementor-panel .elementor-control-type-switcher .elementor-switch-label {
+	background: #444444!important;
+}
+.nightmode .elementor-panel .elementor-control-type-switcher .elementor-switch-handle {
+	background: #313131!important;
+}
+.nightmode .elementor-panel .elementor-control-type-switcher .elementor-switch-label:before {
+	content: attr(data-off);
+	color: #f4f4f4!important;
+	text-shadow: none!important;
+}
+/*styl perekluchatelej cveta fona*/
+.nightmode .elementor-panel .elementor-choices input:not(:checked)+.elementor-choices-label {
+	background-color: #383838!important;
+	color: #f2f2f2!important;
+}
+/*Styl Open akordeona*/
+.nightmode .elementor-panel-heading.elementor-open {
+	background-color: #383838!important;
+}
+.nightmode .elementor-panel .elementor-control-type-section+.elementor-control:not(.elementor-control-type-section) {
+	padding-top: 15px;
+	background-color: #636363!important;
+}
+/*kolor kluchika*/
+.nightmode .elementor-panel .elementor-control-type-dimensions .elementor-link-dimensions.unlinked {
+	background-color: #313131!important;
+}
+.nightmode .elementor-control-input-wrapper.elementor-unlinked fa {
+	color: #f2f2f2!important;
+}
+/*styl podedynczego elementa widgeta*/
+.nightmode .elementor-panel .elementor-element {
+	-webkit-transition: all .3s ease-in-out!important;
+	-o-transition: all .3s ease-in-out!important;
+	transition: all .3s ease-in-out!important;
+	border: 1px dashed transparent!important;
+	background-color: rgba(255,255,255,0.1) !important;
+}
+/* styl input select*/
+.nightmode .elementor-input-style, .nightmode input, .nightmode select, .nightmode textarea {
+	color: #c7c7c7!important;
+	background-color: #383838!important;
+}
+.nightmode .elementor-input-style:not(:focus), .nightmode input:not(:focus), .nightmode select:not(:focus), .nightmode textarea:not(:focus) {
+	border-color: #666666!important;
+}
+/*razdeliteli/bordery*/
+.nightmode .elementor-panel .elementor-control.elementor-control-separator-default:before {
+	background-color: #313131!important;
+}
+/*razdelitel sekcii (tolstye)*/
+.nightmode .elementor-panel .elementor-control-type-structure .elementor-control-structure-more-presets-title:before, .nightmode .elementor-panel .elementor-control-type-structure .elementor-control-structure-title:before {
+	background-color: #383838;
+	font-weight: 300!important;
+}
+/*cvet ikonok select*/
+.nightmode .elementor-device-desktop #elementor-panel .elementor-panel-controls-stack:not(.elementor-responsive-switchers-open) .elementor-responsive-switcher {
+	background: #383838!important;
+}
+/*styl kafelka*/
+.nightmode .elementor-panel .elementor-element:hover {
+	border: 1px dashed #c7c7c7!important;
+}
+.nightmode .elementor-panel#elementor-panel, .nightmode .elementor-panel .elementor-control {
+	background: #535353!important;
+	color: #c7c7c7!important;
+}
+/*przycisk wyjscia do kokpitu*/
+.nightmode .elementor-panel #elementor-panel-exit-to-dashboard {
+	background-color: #ff7800!important;
+}
+/*STYL ZAKLADEK NASTROEK*/
+.nightmode .elementor-panel .elementor-panel-menu-item {
+	background-color: #383838!important;
+	font-weight: 300!important;
+}
+.nightmode .elementor-panel .elementor-panel-menu-item:hover {
+	background-color: #ff7800!important;
+	color: #f4f4f4!important;
+}
+.nightmode .elementor-panel-menu-item-title {
+	font-weight: 300!important;
+}
+/*STYL WIDGETOW*/
+.nightmode .elementor-panel .elementor-element .title {
+	color: #c7c7c7!important;
+}
+.nightmode .elementor-panel .elementor-element .icon {
+	color: #c7c7c7!important;
+}
+.nightmode .elementor-element:hover .title {
+	color: #ff7800!important;
+}
+.nightmode .elementor-element:hover .icon {
+	color: #ff7800!important;
+}
+/* ZAKLADKA STYLE */
+/* link dimension*/
+.nightmode .elementor-panel .elementor-control-type-dimensions .elementor-link-dimensions:not(.unlinked) {
+	background-color: #636363!important;
+}
+.nightmode .elementor-panel .elementor-control-type-dimensions li .elementor-link-dimensions {
+	border: 1px solid #777!important;
+}
+/*KOLOR PICKER*/
+.nightmode .elementor-panel .wp-color-result:hover {
+	border: 1px solid #999!important;
+}
+/* obraz pustaja avatarka*/
+.nightmode .elementor-panel .elementor-control-type-media .elementor-control-media:not(:hover) .elementor-control-media-upload-button {
+	background-color: #313131!important;
+}
+.nightmode .elementor-panel .elementor-control-type-media .elementor-control-media:hover .elementor-control-media-upload-button 		{
+	background-color: #636363!important;
+	border-color: #999!important;
+}
+/*alert uvedomlenie*/
+.nightmode .elementor-panel .elementor-panel-alert.elementor-panel-alert-warning {
+	color: #cfcfcf!important;
+	background-color: #636363!important;
+	border-color: #999!important;
+}
+/*drop-down wybor animacii*/
+.nightmode .select2-dropdown {
+	background-color: #565656!important;
+	border: 1px solid #777!important;
+	color: #cfcfcf!important;
+}
+.nightmode .select2-container--default .select2-selection--single {
+	background-color: #636363!important;
+	border: 1px solid #777!important;
+}
+.nightmode .select2-container--default .select2-search--dropdown .select2-search__field {
+	border: 1px solid #777!important;
+}
+/*STYL FOOTERA*/
+/*BG DROPDOWNa*/
+.nightmode .elementor-panel .elementor-panel-footer-sub-menu-wrapper {
+	background-color: #666666!important;
+}
+/*styl dropdown zakladek*/
+.nightmode .elementor-panel .elementor-panel-footer-sub-menu-item {
+	background-color: #383838!important;
+}
+/*knopka sohraneniya*/
+.nightmode .elementor-button.elementor-button-success:not([disabled]), .nightmode .elementor-panel .elementor-button#elementor-panel-saver-publish:not([disabled]) {
+	background-color: #232323!important;
+}
+/*cvet vzora struktury*/
+.nightmode .elementor-panel .elementor-control-type-structure .elementor-control-structure-preset path {
+	fill: #313131!important;
+}
+/*TITLE*/
+.nightmode .elementor-panel .elementor-control-type-structure .elementor-control-structure-title {
+	color: #f2f2f2!important;
+}
+.nightmode .elementor-panel .elementor-control-type-structure .elementor-control-structure-more-presets-title:before, .nightmode .elementor-panel .elementor-control-type-structure .elementor-control-structure-title:before {
+	background-color: #383838!important;
+}
+/*ZAGOLOVKI SEKCJI*/
+.nightmode .elementor-panel .elementor-panel-heading {
+	border-bottom: 1px solid #444444!important;
+	border-top: 1px solid #444444!important;
+}
+/*razdelitel2*/
+.nightmode .elementor-panel .elementor-control-type-structure .elementor-control-structure-more-presets-title:after, .nightmode .elementor-panel .elementor-control-type-structure .elementor-control-structure-title:after {
+	background-color: #444444!important;
+}
+/*strukture preset*/
+.nightmode .elementor-panel .elementor-control-type-structure .elementor-control-structure-preset {
+	border: 1px solid #444444!important;
+}
+/*Full-width Page content*/
+/*
+		.nightmode #elementor-preview {
+    		left: 0px!important;
+    	}
+*/
+/*STYL CUSTOM CSS*/
+.nightmode .ace-tm .ace_gutter {
+	background: #777!important;
+	color: #999!important;
+}
+/*STYL UVEDOMLENIY*/
+.nightmode .elementor-panel .elementor-control-field-description, .nightmode .elementor-panel .elementor-descriptor {
+	color: #ff7800!important;
+}
+/*ELEMENTOR REPEATER... dobavlenie item's*/
+.nightmode .elementor-panel.elementor-control-type-repeater.elementor-repeater-row-tools {
+	background-color: #383838!important;
+}
+.nightmode .elementor-panel .elementor-control-type-repeater .elementor-repeater-row-tools>div:not(.elementor-repeater-row-handle-sortable) {
+	color: #c7c7c7!important;
+	background-color: #383838!important;
+}
+.nightmode .elementor-panel .elementor-control-type-repeater .elementor-repeater-row-tools {
+	background-color: #999!important;
+}
+/*ELEMENTOR COLOR PICKER*/
+.nightmode .elementor-panel .wp-picker-container.wp-picker-active {
+	background-color: #383838!important;
+	border: 1px dashed #c7c7c7!important;
+}
+.nightmode .iris-border {
+	background-color: #383838!important;
+}
+/*TYPOGRAFIA*/
+.nightmode .elementor-panel .elementor-controls-popover {
+	background-color: #383838!important;
+}
+.nightmode .elementor-panel .elementor-controls-popover:before {
+	border-bottom-color: #383838!important;
+}
+.nightmode .select2-container--default .select2-selection--single .select2-selection__rendered {
+	color: #c7c7c7!important;
+}
+.nightmode .elementor-panel .elementor-control-type-popover_toggle .elementor-control-popover-toggle-toggle:checked+.elementor-control-popover-toggle-toggle-label {
+	color: #ff7800!important;
+}
+/*GLOBAL WIDGETS ICON*/
+.nightmode #elementor-global-templates .elementor-element:before {
+	color: #ff7800!important;
+}
+/*HISTORY*/
+.nightmode .elementor-panel .elementor-panel-box {
+	background-color: #656565!important;
+	color: #c7c7c7!important;
+}
+.nightmode .elementor-history-item-current {
+	background: #383838!important;
+}
+.nightmode .elementor-panel .elementor-panel-scheme-buttons {
+	background-color: #383838!important;
+}
+/*BUTTON*/
+.nightmode .elementor-button.elementor-button-success[disabled], .nightmode .elementor-panel .elementor-button[disabled]#elementor-panel-saver-publish {
+	background-color: #ff7800!important;
+}
+.nightmode .elementor-revision-item__wrapper .elementor-revision-item__tools-current {
+	color: #ff7800!important;
+}
+/* RESIZE STRELKA*/
+.nightmode .elementor-panel>.ui-resizable-all {
+	position: relative;
+	top: 0;
+	height: 20px;
+	width: 20px;
+	left: 100%;
+	background-color: transparent;
+	border-right: 2px solid #ff7800!important;
+	border-bottom: 2px solid #ff7800!important;
+	margin-left: -20px;
+	margin-top: -20px;
+	cursor: nwse-resize;
+}
+
+/*CSS Edytor*/
+.nightmode .ace_content {
+	background-color: #f4f4f4!important;
+	color: #424242!important;
+}
+/*Elementor Library input*/
+.nightmode #elementor-template-library-filter-text {
+	background-color: #f4f4f4!important;
+}
+
+/*wybor z 3 zakladek */
+.nightmode .elementor-panel .elementor-panel-navigation .elementor-panel-navigation-tab.elementor-active {
+	background-image: -webkit-gradient(linear,left top,left bottom,from(#f3f3f3),to(#fff));
+	background-image: -webkit-linear-gradient(top,#f3f3f3,#fff);
+	background-image: -o-linear-gradient(top,#f3f3f3,#fff);
+	background-image: -webkit-gradient(linear,left top, left bottom,from(#212121),to(#111));
+	background-image: -webkit-linear-gradient(top,#212121,#111);
+	background-image: -o-linear-gradient(top,#212121,#111);
+	background-image: linear-gradient(180deg,#212121,#111);
+	border-bottom: 3px solid #ff7800;
+}
+
+/* Responsive switcher*/
+.nightmode.elementor-device-desktop #elementor-panel .elementor-panel-controls-stack:not(.elementor-responsive-switchers-open) .elementor-responsive-switcher {
+	background: #212121!important;
+}
+/*dynamic switcher*/
+.nightmode .elementor-control-dynamic-switcher {
+	color: #ff7800;
+}
+.nightmode .elementor-tags-list {
+	background-color: #383838;
+}
+.nightmode .elementor-tags-list__group-title {
+	color: #f2f2f2;
+}
+.nightmode .elementor-tags-list__item {
+	color: #ccc;
+}
+.nightmode .elementor-tags-list__item:hover {
+	color: #444;
+}
+
+.nightmode #cws-night-skin > a > i {
+	color: #ff7800!important;
+}
+
+.nightmode #elementor-panel-header-title {
+	-webkit-transition: all .3s ease-in-out;
+	-o-transition: all .3s ease-in-out;
+	transition: all .3s ease-in-out;
+}
+
+.nightmode #elementor-panel-header-title:hover {
+	background-color: #383838;
+	-webkit-box-shadow: inset 0px 0px 20px 10px rgba(0,0,0,0.3);
+	box-shadow: inset 0px 0px 20px 10px rgba(0,0,0,0.3);
+}
+.nightmode .panel-elements-category-title {
+	border-top: 1px solid #676767;
+}
+.nightmode .cws-collapsed-wrapper {
+	padding: 9px 8px;
+	background-color: #313131;
+	border-radius: 3px;
+	margin-top: 5px;
+}
+/*
+.cws-preview-full .nightmode #elementor-preview {
+	left: 0px;
+}
+.cws-preview-boxed .nightmode #elementor-preview {
+	left: 300px;
+}
+*/
+.nightmode #elementor-mode-switcher {
+	background-color: #313131;
+}
+.nightmode #elementor-mode-switcher:hover {
+	background-color: #ff7800;
+}
+.nightmode.elementor-editor-preview #elementor-mode-switcher {
+	background-color: #313131;
+}
+.nightmode.elementor-editor-preview #elementor-mode-switcher:hover {
+	background-color: #ff7800;
+}
+.nightmode .elementor-editor-active.elementor.elementor-edit-mode.elementor-section>.elementor-element-overlay:after {
+	position: absolute;
+	left: 2px;
+	right: 2px;
+	top: 2px;
+	bottom: 2px;
+	outline: 2px solid #ff7800!important;
+}
+.nightmode .elementor-editor-active.elementor.elementor-edit-mode.elementor-editor-section-settings {
+	top: 1px;
+	left: 50%;
+	background-image: -webkit-gradient(linear, left top, left bottom, from(#ff7800), to(#ff7800));
+	background-image: -webkit-linear-gradient(top, #ff7800, #ff7800);
+	background-image: -o-linear-gradient(top, #ff7800, #ff7800);
+	background-image: linear-gradient(180deg, #ff7800, #ff7800)!important;
+}
+.nightmode .elementor-editor-active .elementor.elementor-edit-mode .elementor-editor-section-settings .elementor-editor-element-setting:hover {
+	background-color: #ff7800;
+}
+.elementor-editor-active .elementor.elementor-edit-mode .elementor-editor-section-settings .elementor-editor-element-setting {
+	background-color: #ff7800;
+}
+.nightmode .elementor-editor-active .elementor.elementor-edit-mode .elementor-editor-widget-settings {
+	z-index: 2;
+	top: -1px;
+	right: -1px;
+	/* background-image: -webkit-gradient(linear,left bottom,left top,from(#41c9f4),to(#71d7f7)); */
+	/* background-image: -webkit-linear-gradient(bottom,#41c9f4,#71d7f7); */
+	background-image: -o-linear-gradient(top, #ff7800, #ff7855);
+	background-image: linear-gradient(180deg, #ff7800, #ff7855);
+}
